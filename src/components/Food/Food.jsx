@@ -13,7 +13,7 @@ const Food = (props) => {
       </div>
       <div className="food-info">
         <h2>{strMeal}</h2>
-        <p className="food-type">Food Type: {strArea}</p>
+        <p className="food-type">{strArea} food</p>
         <a className="yt-link" href={strYoutube} target="_blank">
           Watch Video
         </a>

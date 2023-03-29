@@ -6,6 +6,10 @@ const Cart = ({ cart }) => {
   const handleOrder = () => {
     toast("Order Added!");
   };
+  // let quantity = 0;
+  // for (const food of cart) {
+  //   quantity = quantity + food.quantity;
+  // }
 
   return (
     <div className="cart">
@@ -16,9 +20,9 @@ const Cart = ({ cart }) => {
           cart.map((food, index) => {
             return (
               <div key={index}>
-                <h3>
-                  {index + 1}. {food.strMeal}
-                </h3>
+                <li>
+                  {food.strMeal} {food.quantity}
+                </li>
               </div>
             );
           })}
