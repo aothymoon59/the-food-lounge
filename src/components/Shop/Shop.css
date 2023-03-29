@@ -1,0 +1,16 @@
+.shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.foods-container {
+    padding: 50px 30px 20px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.cart-container {
+    padding: 50px 20px 20px 20px;
+    background-color: #FB0066;
+}

@@ -1,0 +1,45 @@
+.cart {
+    position: sticky;
+    top: 140px;
+}
+
+.cart-title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.cart-subTitle {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.foods-name {
+    margin-top: 30px;
+}
+
+.foods-name h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.order {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.order-btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #FB0066;
+    border: 0;
+    border-radius: 12px;
+}
+
+.order-btn:hover {
+    background-color: #f0e6e6;
+}
